@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background: red;
+    text-align: center;
+}
+
+.header h1 {
+    color: #fff;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+.piramide1 {
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .piramide {
+    padding: 30px 0 60px;
+}
+
+.contenedor-piramide {
+    display: flex;
+}
+
+.img-piramide {
+    scale: 1;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.piramide-txt {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-right: 5%;
+}
+
+.dietas {
+    display: inline block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 40px;
+    background: darkgrey;
+}
+
+.dietas h2 {
+    text-align: left;
+}
+
+.dietas p {
+    text-align: justify;
+}
+
+.food {
+    background: rosybrown;
+    padding: 20px 50px;
+}
+
+.dietas > ul{
+    background: plum;
+    padding: 20px 50px;
+}
+
+.text{
+    margin-bottom: 20px;
+}

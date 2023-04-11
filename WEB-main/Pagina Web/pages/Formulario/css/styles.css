@@ -1,0 +1,455 @@
+/*
+paleta de colores
+#23DAFA, #D255FA, #F2F2F2, #FA8423, #B5FA2F 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sono', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    height: 150vh;
+    font-family: 'Sono', sans-serif;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a {
+    color: #000;
+    font-size: larger;
+    font-weight: 800;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    font-family: 'Sono', sans-serif;
+    text-align: right;
+    margin-right: 0;
+    margin-top: 1;
+    background: linear-gradient(90deg, #692354, #EC95D2, #E84DB9);
+}
+
+.menu a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+.hr {
+    border-color: #23DAFA;
+}
+
+.menu > li {
+    display: inline-block;
+    padding: 1.2% 2.2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    background-color: #FA8423;
+    font-size: 20px;
+}
+
+.menu > li:hover {
+    background-color: #5F7094;
+    border: 2px solid;
+}
+.menu .btn_contacto {
+    background-color: #E8B964;
+    border: 3px solid;
+}
+
+.title {
+    text-align: center;
+    font-size: 4em;
+    margin: 1%;
+    color: antiquewhite;
+}
+
+.fm_contact {
+    width: 45%;
+    height: auto;
+    margin: 2% auto;
+    border: 5px solid #000;
+    border-radius: 10px;
+    padding: 2% 1%;
+    text-align: center;
+}
+
+.fm_contact > hr {
+    margin-bottom: 3%;
+}
+
+.tittle_form {
+    margin: 2% 0;
+    text-align: center;
+    color: #68b48e;
+}
+
+.fm_contact > input,
+button,
+label {
+    display: inline-block;
+    width: 80%;
+    margin: 1% 0;
+    font-size: 22px;
+}
+
+.fm_contact > input,
+.msn {
+    padding: 10px 2px;
+    border: none;
+    border-bottom: 2px solid green;
+    outline: none;
+    background-color: antiquewhite;
+}
+
+.msn {
+    width: 80%;
+}
+
+.fm_contact > label {
+    text-align: left;
+    padding: 5px;
+}
+
+.msn:focus,
+input:focus {
+    border-bottom: none;
+    border-right: 3px solid blue;
+    background-color: antiquewhite;
+}
+
+.btnCancelar,
+.btnRegistrar,
+.btn_enviar {
+    width: 30%;
+    margin-top: 3%;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 3px solid #034f4e;
+    color: #fff;
+}
+
+.btn_enviar:hover {
+    background-color: #034f4e;
+    text-decoration: underline;
+    transition: 0.7s;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /*acomodar elementos*/
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    background: linear-gradient(90deg, #692354, #EC95D2, #E84DB9);
+}
+
+.foot {
+    display: inline;
+    margin: 3%;
+    text-align: center;
+}
+
+.copy {
+    width: 30%;
+    height: auto;
+    color: #fff;
+    line-height: 40px;
+    /*espacion entre lineas*/
+}
+
+.map,
+.my_nets {
+    width: 30%;
+    height: auto;
+}
+
+.title_about,
+.title_nets,
+.title_ubi {
+    color: #fff;
+    margin-bottom: 3%;
+    padding: 1%;
+}
+
+.social_net > li {
+    padding: 1%;
+    text-decoration: none;
+}
+
+.li {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #ccc;
+    text-decoration: none;
+    padding: 10px 20px 0 0;
+}
+
+.li:hover {
+    color: #af20d3;
+}
+
+.nets {
+    width: 8%;
+}
+
+.foot > iframe {
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.credits {
+    width: 100%;
+    padding: 2%;
+    background: linear-gradient(90deg, #692354, #EC95D2, #E84DB9);
+    text-align: right;
+    color: #fff;
+}
+
+.credits > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card {
+    width: 60%;
+    margin: 5% auto;
+    border: 5px solid #000;
+    background-color: #E8B964;
+    text-align: center;
+    color: #fff;
+}
+
+.cardProfesores {
+    width: 60%;
+    margin: 5% auto;
+    border: 5px solid #000;
+    background-color: #65bfd1e1;
+    text-align: center;
+    color: #fff;
+}
+
+.title-card {
+    font-size: 24px;
+    padding: 2%;
+}
+.data-card,
+.text-mail,
+.text-msn {
+    font-size: 20px;
+    color: #fff;
+    padding: 1% 0;
+}
+
+.text-telefono {
+    font-size: 22px;
+    padding: 2% 0;
+}
+.btnCancelar:hover,
+.btnRegistrar:hover {
+    background: #BF0F30;
+    text-decoration: underline;
+}
+.alerta {
+    width: 30%;
+    height: auto;
+    background: #9b1523;
+    position: fixed;
+    top: calc(100vh - 65%);
+    left: calc(100vw - 65%);
+    text-align: center;
+    border: 2px solid #402319;
+    padding: 5px;
+}
+
+.textAlerta {
+    width: 100%;
+    margin-top: 12%;
+    margin-bottom: 10%;
+    color: aliceblue;
+    font-size: 20px;
+}
+.btnAlerta {
+    width: 40%;
+    height: auto;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    background: #402319;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #F2F2F2;
+    padding: 2%;
+}
+
+.select {
+    width: 80%;
+    padding: 15px 2px;
+    margin: 1%;
+    font-size: 20px;
+    background-color: antiquewhite;
+    outline: none;
+    border: none;
+}
+
+.social_net > li > a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+.social_net > li > a:hover {
+    color: #692354;
+}
+
+/*estilos de la validacion*/
+
+.is-valid {
+    border-bottom: 3px solid green !important;
+}
+
+.is-invalid {
+    border-bottom: 3px solid red !important;
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+    .menu > li {
+        font-size: 15px;
+    }
+    .title {
+        font-size: 3.5em;
+    }
+    .fm_contact {
+        width: 70%;
+    }
+    .container_header {
+        height: 25%;
+    }
+}
+
+@media (min-width: 680px) and (max-width: 768px) {
+    .menu {
+        padding: 3%;
+    }
+    .menu > li {
+        font-size: 18px;
+        margin-bottom: 1.5%;
+    }
+    .title {
+        font-size: 3em;
+        margin-top: 2%;
+    }
+    .fm_contact {
+        width: 75%;
+    }
+    .container_header {
+        height: 20%;
+    }
+    .btnCancelar,
+    .btnRegistrar,
+    .btn_enviar {
+        width: 35%;
+        margin-top: 2%;
+        padding: 8px 18px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 580px) and (max-width: 679px) {
+    .menu {
+        padding: 3%;
+    }
+    .menu > li {
+        font-size: 15px;
+        margin-bottom: 1.5%;
+        padding: 2px;
+    }
+    .title {
+        font-size: 2.5em;
+        margin-top: 2.5%;
+    }
+    .fm_contact {
+        width: 80%;
+        height: auto;
+        margin: 2% auto;
+        border: 3.5px solid;
+        border-radius: 8px;
+    }
+    .fm_contact > input,
+    button,
+    label {
+        font-size: 21px;
+    }
+    .container_header {
+        height: 20%;
+    }
+    .btnCancelar,
+    .btnRegistrar,
+    .btn_enviar {
+        width: 40%;
+        margin-top: 2%;
+    }
+    .copy {
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 580px) {
+    .menu {
+        margin: 2%;
+        text-align: right;
+    }
+    .menu > li {
+        display: block;
+        text-align: center;
+        padding: 1%;
+    }
+    .title {
+        font-size: 2em;
+        margin-top: 1%;
+    }
+    .fm_contact {
+        width: 85%;
+        border: 3px solid;
+    }
+    .fm_contact > input,
+    button,
+    label {
+        font-size: 20px;
+    }
+    .container_header {
+        height: 26%;
+    }
+    .btnCancelar,
+    .btnRegistrar,
+    .btn_enviar {
+        width: 45%;
+        margin-top: 2.5%;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    .foot > iframe {
+        width: 90%;
+    }
+    .credits {
+        height: auto;
+        padding: 2%;
+    }
+}
